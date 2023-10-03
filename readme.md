@@ -57,7 +57,7 @@ MAILGUN_DOMAIN=...
 
 ### Scheduling with Cron
 
-Ideally, the `run.py` script in step 4 should be run periodically using a scheduler like cron on a server or a remote VPS. This way, the script checks the availability of tickets periodically and sends a notification as soon as the change in ticket availability is detected.
+Ideally, the `run.py` script in step 7 should be run periodically using a scheduler like cron on a server or a remote VPS. This way, the script checks the availability of tickets periodically and sends a notification as soon as the change in ticket availability is detected.
 
 Here is an example of a cron job that runs the script every 10 minutes and also outputs stdout and stderr to a log file called `ticket_log.txt`:
 
