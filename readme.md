@@ -1,6 +1,6 @@
 # AC Milan Ticket Availability Checker 🔴⚫🎫
 
-This Python script periodically checks for the availability of tickets for AC Milan football matches. When tickets become available, it sends a notification via email. This tool is designed to be run as a cron job, providing a convenient way to stay updated on ticket availability for your favorite team.
+This Python script periodically checks for the availability of tickets for AC Milan football matches provided by certified reseller (club itself) threfore the cheapest and the most reliable tickets. When tickets become available, it sends a notification via email. This tool is designed to be run as a cron job, providing a convenient way to stay updated on ticket availability for your favorite team.
 
 > **Note:** This script relies on parsing HTML of a website. If the AC Milan ticket website somehow changes, this script will not work anymore and will need modification.
 
